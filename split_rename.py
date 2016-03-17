@@ -4,7 +4,7 @@ import os
 import wave
 from pydub import AudioSegment
 
-__author__ = 'zhangxulong'
+
 
 dicts = {"aerosmith": '10001', "beatles": "10002", 'creedence_clearwater_revival': '10003', 'cure': '10004',
          'dave_matthews_band': '10005', 'depeche_mode': "10006",
