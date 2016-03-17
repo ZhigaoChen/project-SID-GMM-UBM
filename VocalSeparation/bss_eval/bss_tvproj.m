@@ -16,9 +16,7 @@ function [PY_x coeff] = bss_tvproj(x,Y,tvshape,tvstep)
 %   x onto the range of the shifted windowed versions of the row(s) of Y.
 %   - coeff : matrix with n_rows rows and n_frames columns containing the coefficients 
 %   of the projection 
-%
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 % 1. Padd the signals with zeros on the left and the right 
 V        = size(tvshape,2); % the size of the window

@@ -1,8 +1,7 @@
 % BSS_EVAL - Toolbox for evaluation of Blind Audio Source Separation (BASS)
 % methods.
 % 
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 % 
 % Files
 %   bss_crit          - compute evaluation criteria given a decomposition of an estimated source into target/interference/noise/artifacts 

@@ -16,8 +16,7 @@ function S_lags=bss_make_lags(S,L)
 %   * S_lags is zero-padded where necessary,
 %   * We use the conventions make_lags(S,0)=makes_lags(S,1)=S.
 %
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 [n,T]=size(S);
 

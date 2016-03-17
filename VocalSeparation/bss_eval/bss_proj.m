@@ -14,9 +14,7 @@ function [PY_x coeff]=bss_proj(x,Y)
 %   x onto the range of the rows of Y.
 %   - coeff : column vector with as many rows as Y containing the
 %   coefficients such that PY_x = coeff.'*Y
-%
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 % Gram matrix of Y
 G=Y*Y';

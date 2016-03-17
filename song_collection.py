@@ -3,7 +3,7 @@ import time
 # sudo add-apt-repository ppa:mc3man/trusty-media
 # sudo apt-get update
 # sudo apt-get dist-upgrade
-__author__ = 'zhangxulong'
+
 # use for collect songs but here we use a dataset and this code will be the util to handle the dataset.
 import os
 import os.path

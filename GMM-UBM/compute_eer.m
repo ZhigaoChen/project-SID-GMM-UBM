@@ -13,10 +13,7 @@ function [eer, dcf08, dcf10] = compute_eer(scores, labels, showfig)
 %   - dcf08         : minimum detection cost function (DCF) with SRE'08
 %                     parameters
 %   - dcf10         : minimum DCF with SRE'10 parameters
-%
-%
-% Omid Sadjadi <s.omid.sadjadi@gmail.com>
-% Microsoft Research, Conversational Systems Research Center
+
 
 
 if iscell(labels),

@@ -1,10 +1,3 @@
-% This is an example code for running the RPCA for source separation
-% P.-S. Huang, S. D. Chen, P. Smaragdis, M. Hasegawa-Johnson, 
-% "Singing-Voice Separation From Monaural Recordings Using Robust Principal Component Analysis," in ICASSP 2012
-%
-% Written by Po-Sen Huang @ UIUC
-% For any questions, please email to huang146@illinois.edu.
-
 %% addpath
 clear all; close all; 
 addpath('bss_eval');

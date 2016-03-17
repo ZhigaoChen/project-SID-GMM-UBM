@@ -41,8 +41,7 @@ function varargout=bss_crit(varargin)
 %   - SNR: n_frames x 1 vector containing local Signal to Noise Ratio,
 %   - SAR: n_frames x 1 vector containing local Source to Artifacts Ratio.
 %
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 
 s_target=varargin{1}; e_interf=varargin{2}; 

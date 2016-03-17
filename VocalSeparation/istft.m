@@ -6,11 +6,7 @@ function x = istft(d, ftsize, w, h)
 %	W/2, or F/2 if W==0). Data is hann-windowed at W pts, or 
 %       W = 0 gives a rectangular window (default); 
 %       W as a vector uses that as window.
-%       This version scales the output so the loop gain is 1.0 for
-%       either hann-win an-syn with 25% overlap, or hann-win on
-%       analysis and rect-win (W=0) on synthesis with 50% overlap.
-% dpwe 1994may24.  Uses built-in 'ifft' etc.
-% $Header: /home/empire6/dpwe/public_html/resources/matlab/pvoc/RCS/istft.m,v 1.5 2010/08/12 20:39:42 dpwe Exp $
+
 
 if nargin < 2; ftsize = 2*(size(d,1)-1); end
 if nargin < 3; w = 0; end

@@ -1,6 +1,6 @@
 function [A_hat E_hat iter] = inexact_alm_rpca(D, lambda, tol, maxIter)
 
-% Oct 2009
+
 % This matlab code implements the inexact augmented Lagrange multiplier 
 % method for Robust PCA.
 %
@@ -22,11 +22,6 @@ function [A_hat E_hat iter] = inexact_alm_rpca(D, lambda, tol, maxIter)
 %   \mu = \rho * \mu;
 % end
 %
-% Minming Chen, October 2009. Questions? v-minmch@microsoft.com ; 
-% Arvind Ganesh (abalasu2@illinois.edu)
-%
-% Copyright: Perception and Decision Laboratory, University of Illinois, Urbana-Champaign
-%            Microsoft Research Asia, Beijing
 
 % addpath PROPACK;
 

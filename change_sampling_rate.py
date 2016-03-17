@@ -1,8 +1,4 @@
 import os
-
-__author__ = 'zhangxulong'
-
-
 def change_sampling_rate_160k(parent, audio_wav):
     print parent
 

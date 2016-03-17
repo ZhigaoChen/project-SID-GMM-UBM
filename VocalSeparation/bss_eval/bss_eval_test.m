@@ -11,9 +11,7 @@ function bss_eval_test(T,N,W,L)
 %   - L: number of taps of the filter (default 0)
 %
 % Ouput: None
-%
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 if nargin<1
     T = 1000;

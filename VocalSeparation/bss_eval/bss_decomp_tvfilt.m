@@ -27,8 +27,7 @@ function varargout=bss_decomp_tvfilt(varargin)
 %   - e_artif: row vector of length T containing the artifacts
 %   contribution.
 %
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 se=varargin{1}; index=varargin{2}; S=varargin{3};
         

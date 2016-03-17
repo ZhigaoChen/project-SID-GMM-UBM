@@ -16,9 +16,7 @@ function [F_S frames_index] = bss_make_frames(S,WINDOW,NOVERLAP)
 %       * if n>1, F_S is a n_frames x W x n tensor containing the frames
 %       decomposition of each row of S.
 %   - frames_index: index of the beginning of each frame in the rows of S
-%
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 [n,T]=size(S);
 

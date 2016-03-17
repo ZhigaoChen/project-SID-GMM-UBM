@@ -19,8 +19,7 @@ function [varargout]=bss_energy_ratios(F_s_target,F_e_interf,varargin)
 %   - SNR: n_frames x 1 vector contaning the Signal to Noise Ratios (if noise) per frame,
 %   - SAR: n_frames x 1 vector contaning the Signal to Artifacts Ratios per frame.
 %
-% Developers:  - Cedric Fevotte (fevotte@tsi.enst.fr) - Emmanuel Vincent
-% (emmanuel.vincent@irisa.fr) - Remi Gribonval (remi.gribonval@irisa.fr)
+
 
 switch nargin
     case 3
